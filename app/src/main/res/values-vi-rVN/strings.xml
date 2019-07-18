@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SVMC_MP</string>
+    <string name="hello_blank_fragment">chào fragment mới</string>
+    <string name="title_chon_ngon_ngu">Cài đặt ngôn ngữ</string>
+    <string name="title_fragment_1">Phòng Công Khai</string>
+    <string name="title_fragment_2">Phòng cá nhân</string>
+    <string name="title_fragment_3">Cài đặt</string>
+    <string name="hint_username">Tên người dùng</string>
+    <string name="button_login">Đăng nhập</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_password_again">Nhập lại mật khẩu</string>
+    <string name="textview_signup">Đăng ký tài khoản</string>
+    <string name="button_logout">Đăng xuất</string>
+    <string name="button_register">Đăng ký</string>
+    <string name="title_naruto">Hội yêu thích Naruto</string>
+    <string name="title_onepiece">Hội yêu thích One Piece</string>
+    <string name="notbeempty">Không được để trống</string>
+</resources>

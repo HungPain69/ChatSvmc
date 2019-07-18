@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:padding="3dp"
+    android:background="#ECEAEA"
+    >
+    <ImageView
+        android:id="@+id/id_img_phong_cong_khai"
+        android:layout_height="100sp"
+        android:layout_width="100sp"
+        android:src="@drawable/onepiece_logo"
+        android:background="#FFFFFF"
+        android:adjustViewBounds="true"
+        />
+
+
+
+    <TextView
+        android:id="@+id/id_name_phong_cong_khai"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="6dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="1dp"
+        android:textStyle="bold"
+        android:background="#FFFF"
+        android:text="Name"
+        />
+
+
+
+
+</LinearLayout>

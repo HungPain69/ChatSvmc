@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/id_toolbar_man_hinh_chat_cong_khai"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#6200EE"
+        android:layout_alignParentTop="true"
+        app:titleTextColor="@color/colortexttitle"
+        android:elevation="4dp">
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/id_recycler_chat_cong_khai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/id_linearlayout_chat_cong_khai"
+        android:layout_below="@id/id_toolbar_man_hinh_chat_cong_khai"
+        android:background="#FFF"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/id_linearlayout_chat_cong_khai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#FFF"
+        >
+
+        <EditText
+            android:id="@+id/id_edt_chat_cong_khai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Nhập tin nhắn"
+            android:padding="10dp"
+            android:background="@drawable/bo_thanh_nhap_tin_nhan"
+            />
+        <Button
+            android:id="@+id/id_btn_chat_cong_khai"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="6dp"
+            android:background="@drawable/button_send"
+            />
+    </LinearLayout>
+</RelativeLayout>

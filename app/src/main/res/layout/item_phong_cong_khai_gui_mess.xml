@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginVertical="3dp"
+    android:background="#FFF"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical"
+        android:layout_toLeftOf="@+id/id_img_avatar_gui_mess_cong_khai"
+        >
+
+        <TextView
+            android:id="@+id/id_tv_ten_nguoi_gui_mess_chat_cong_khai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:gravity="right"
+            android:paddingVertical="6dp"
+            android:text="Name"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/id_tv_gui_noi_dung_chat_cong_khai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="left"
+            android:layout_below="@+id/id_tv_ten_nguoi_gui_mess_chat_cong_khai"
+            android:text="Author"
+            android:textColor="#FFF"
+            android:paddingVertical="6dp"
+            android:textSize="18dp"
+            android:background="@drawable/bo_tron_canh_tin_nhan_gui_di"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/id_img_avatar_gui_mess_cong_khai"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
